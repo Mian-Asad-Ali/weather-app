@@ -1,8 +1,11 @@
 import React from 'react';
+import Temperature from './components/temperature';
 
 function App() {
   return (
-    <><h2>This is 1st Run</h2></>
+    <>
+      <Temperature />
+    </>
   );
 }
 
